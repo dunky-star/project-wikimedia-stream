@@ -1,1 +1,1 @@
-# project-wikimedia-stream
+# Project Wikimedia Stream
