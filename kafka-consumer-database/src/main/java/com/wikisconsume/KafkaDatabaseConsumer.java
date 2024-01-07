@@ -12,6 +12,6 @@ public class KafkaDatabaseConsumer {
             groupId="${spring.kafka.consumer.group-id}"
     )
     public void consume(String eventMessage){
-        
+        LOGGER.info(String.format("Event message received -> %s", eventMessage));
     }
 }
