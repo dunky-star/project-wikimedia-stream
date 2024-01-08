@@ -12,6 +12,8 @@ public class WikimediaData {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Lob  // For very long String length
     private String wikiEventData;
 
 
